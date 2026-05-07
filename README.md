@@ -6,7 +6,7 @@ Practical engineering standards for reducing complexity, improving maintainabili
 
 ## Why This Exists
 
-Modern software teams increasingly use AI coding tools, but those tools need clear engineering boundaries. This guide defines the standards I apply from code contributions, whether written by a human or an AI assistant.
+Modern software teams increasingly use AI coding tools, but those tools need clear engineering boundaries. This guide defines the standards I expect from code contributions, whether written by a human or an AI assistant.
 
 ## Principles
 
