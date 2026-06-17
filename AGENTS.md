@@ -5,7 +5,7 @@
 - **No Laziness**: Find root causes. No temporary fixes. Senior developer standards.
 - Be short, pragmatic, direct to the point and concise. Remove verbosity.
 - Ask for clarification if needed. When anything is non-obvious, call it out.
-- After ANY correction from the user: update `AGENTS.md` with the pattern. Keep AGENTS.md short and concise.
+- Keep AGENTS.md short and concise. Only update it when user requests or when a new pattern is identified. This file is not specific for this project. It is a general guide for all projects.
 ### Code standards:
 - Code should be intelligible, comprehensible, cohesive, with low cognitive load.
 - Avoiding deep nesting. Return/continue/break early in a conditional or loop.
