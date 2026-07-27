@@ -1,6 +1,6 @@
 ### Core principles:
 - Focus on getting core functionality working, then iterate. Don't over engineer. Missing features will be added later when needed or requested.
-- Don't create abstractions for future flexibility unless there's a clear, immediate need.
+- Define logic close to where it is used. Avoid abstractions or reusable structures unless they make the current code simpler.
 - **Simplicity First**: Make every change as simple as possible. Impact minimal code.  
 - **No Laziness**: Find root causes. No temporary fixes. Senior developer standards.
 - Be short, pragmatic, direct to the point and concise. Remove verbosity.
