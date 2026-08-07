@@ -16,6 +16,6 @@
 - To reduce cognitive load, having some repetition is good tradeoff.
 - Remove unused code (constants, methods, parameters) immediately.
 ### When implementing something, ask:
-- What other parts related or unrelated with this change might be impacted?
-- Any possible upstream or downstream impact?
+- Check directly related upstream and downstream impacts.
+- Keep unrelated work out of scope unless evidence requires it.
 - Do not quietly change security-sensitive behavior. Call it out.
