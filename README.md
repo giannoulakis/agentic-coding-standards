@@ -4,6 +4,12 @@ Practical engineering standards for reducing complexity, improving maintainabili
 
 **Read the standards:** [`AGENTS.md`](./AGENTS.md)
 
+**Cursor skills:** [`.cursor/skills/`](./.cursor/skills/)
+
+| Skill | Use for |
+|-------|---------|
+| [`ai-pr`](./.cursor/skills/ai-pr/SKILL.md) | Copy-pasteable branch → commit → push → PR commands from staged changes |
+
 ## Why This Exists
 
 Modern software teams increasingly use AI coding tools, but those tools need clear engineering boundaries. This guide defines the standards I expect from code contributions, whether written by a human or an AI assistant.
@@ -26,6 +32,7 @@ This can be used as:
 - A lightweight team coding guide
 - A prompt foundation for AI-assisted development
 - A review checklist for maintainability
+- Cursor Agent Skills for common workflows (install by copying `.cursor/skills/` into your project or `~/.cursor/skills/`)
 
 ## About
 
