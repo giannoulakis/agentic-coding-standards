@@ -1,0 +1,21 @@
+# llms.txt — ADR-aware vibe coding
+version: 1.0
+
+## Purpose
+Keep intent in the repo. Meaningful changes ship with an ADR in docs/decisions/.
+
+## Load before coding
+- AGENTS.repo.md
+- docs/decisions/0001-adopt-adr-workflow.md
+- Relevant docs/decisions/NNNN-*.md for the area you touch
+- docs/decisions/ADR_TEMPLATE.md
+
+## Skills (always on in this repo)
+- adr — write plain ADR before commit, stage with code
+- unslop — plain prose on docs and user-facing text
+
+## Commit rule
+Code + ADR in the same commit or PR. Commit body: ADR-NNNN: summary.
+
+## Location
+docs/decisions/NNNN-kebab-case-slug.md
