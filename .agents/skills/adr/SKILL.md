@@ -1,7 +1,7 @@
 ---
 name: adr
 description: >-
-  During feature or structural work, write or update a short plain-language ADR
+  During feature or structural work, write or update a plain-language ADR
   in docs/decisions/ as decisions land, not only before commit. Commit it with
   the code. Use when adding features, architecture changes, library choices, or
   auth/security work.
@@ -11,7 +11,7 @@ description: >-
 
 Follow this during feature and structural work, not only at commit time.
 
-When a decision is made or the design shifts, create or update the ADR in the same interaction. Ship code and ADR in the same commit or PR. Follow AGENTS.md: short, pragmatic, KISS.
+When a decision is made or the design shifts, create or update the ADR in the same interaction. Ship code and ADR in the same commit or PR. Follow AGENTS.md: pragmatic, KISS.
 
 ## When to write an ADR
 
@@ -31,7 +31,7 @@ Skip for typos, formatting-only edits, comment-only edits, and refactors that ch
 2. As you implement, update the ADR whenever the decision, scope, or trade-offs change. Do not wait for commit.
 3. Before commit, run `git diff` and `git diff --stat`. Confirm the ADR matches the diff. Create or update if anything drifted.
 4. Next number: `scripts/next-adr-number.sh`, or highest `docs/decisions/NNNN-*.md` + 1, zero-padded.
-5. Draft using [ADR_TEMPLATE.md](../../../docs/decisions/ADR_TEMPLATE.md). A few sentences or bullets per section. Delete empty sections.
+5. Draft using [ADR_TEMPLATE.md](../../../docs/decisions/ADR_TEMPLATE.md). Write each section to the length the decision needs. Delete empty sections.
 6. Edit the draft for plain prose (see Writing below).
 7. Set status to `accepted` when done; `proposed` only if recording intent before code lands.
 8. Fill Confirmation with test commands and commit SHAs (or `pending` until commit).
@@ -39,13 +39,17 @@ Skip for typos, formatting-only edits, comment-only edits, and refactors that ch
 
 ## Sections (default)
 
-- Context: one short paragraph on the problem and constraints in this codebase
+- Context: lead with the trigger (user-visible symptom, report, or measurable pain), then the technical cause in this repo. For performance work, name the slow screen or action before the query or index.
 - Decision: what you chose and why
 - Alternatives considered: at least one rejected option, one line each
-- Consequences: trade-offs in plain prose or short bullets
+- Consequences: trade-offs in plain prose or bullets
 - Confirmation: tests run and commit links
 
 Add anti-goals only when scope creep is a real risk for this change.
+
+## Length
+
+Match the decision, not a word count. A one-line fix can stay brief. A perf fix, migration on a large table, or multi-option trade-off gets the room it needs. Do not pad. Do not cut the trigger or the why just to keep it short.
 
 ## Writing
 
@@ -61,7 +65,11 @@ Write like a teammate explaining a choice, not like generated docs.
 - Sentence case headings.
 - One idea per sentence. Split dense lines.
 
-Self-check after meaningful changes and before commit: does every sentence tell the reader something specific about this decision in this repo?
+Self-check after meaningful changes and before commit:
+
+- Does Context say why we did this now, not only what the code does?
+- For perf or indexes: can a reader name the slow page or action without opening the diff?
+- Does every sentence tell the reader something specific about this decision in this repo?
 
 ## Commit message
 
