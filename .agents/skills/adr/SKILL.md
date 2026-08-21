@@ -1,20 +1,21 @@
 ---
 name: adr
 description: >-
-  Before commit on feature or structural work, write a short plain-language ADR
-  in docs/decisions/ and commit it with the code. Use when committing features,
-  architecture changes, library choices, or auth/security work.
+  During feature or structural work, write or update a short plain-language ADR
+  in docs/decisions/ as decisions land, not only before commit. Commit it with
+  the code. Use when adding features, architecture changes, library choices, or
+  auth/security work.
 ---
 
 # ADR
 
-Follow this before every commit that adds or changes behavior.
+Follow this during feature and structural work, not only at commit time.
 
-Ship code and ADR in the same commit or PR. Follow AGENTS.md: short, pragmatic, KISS.
+When a decision is made or the design shifts, create or update the ADR in the same interaction. Ship code and ADR in the same commit or PR. Follow AGENTS.md: short, pragmatic, KISS.
 
 ## When to write an ADR
 
-Write one when:
+Write or update one when:
 
 - New feature or user-visible behavior
 - Architecture, boundaries, or data model changes
@@ -26,14 +27,15 @@ Skip for typos, formatting-only edits, comment-only edits, and refactors that ch
 
 ## Workflow
 
-1. Implement (or finish the vibe-coding pass).
-2. Before commit, run `git diff` and `git diff --stat`. If an ADR is required, create or update one.
-3. Next number: `scripts/next-adr-number.sh`, or highest `docs/decisions/NNNN-*.md` + 1, zero-padded.
-4. Draft using [ADR_TEMPLATE.md](../../../docs/decisions/ADR_TEMPLATE.md). A few sentences or bullets per section. Delete empty sections.
-5. Edit the draft for plain prose (see Writing below).
-6. Set status to `accepted` when done; `proposed` only if recording intent before code lands.
-7. Fill Confirmation with test commands and commit SHAs (or `pending` until commit).
-8. Stage code and ADR together. One commit when possible.
+1. At the start of feature or structural work, check whether an ADR is needed. If yes, create a draft or open the existing ADR for this change.
+2. As you implement, update the ADR whenever the decision, scope, or trade-offs change. Do not wait for commit.
+3. Before commit, run `git diff` and `git diff --stat`. Confirm the ADR matches the diff. Create or update if anything drifted.
+4. Next number: `scripts/next-adr-number.sh`, or highest `docs/decisions/NNNN-*.md` + 1, zero-padded.
+5. Draft using [ADR_TEMPLATE.md](../../../docs/decisions/ADR_TEMPLATE.md). A few sentences or bullets per section. Delete empty sections.
+6. Edit the draft for plain prose (see Writing below).
+7. Set status to `accepted` when done; `proposed` only if recording intent before code lands.
+8. Fill Confirmation with test commands and commit SHAs (or `pending` until commit).
+9. Stage code and ADR together. One commit when possible.
 
 ## Sections (default)
 
@@ -59,7 +61,7 @@ Write like a teammate explaining a choice, not like generated docs.
 - Sentence case headings.
 - One idea per sentence. Split dense lines.
 
-Self-check before commit: does every sentence tell the reader something specific about this decision in this repo?
+Self-check after meaningful changes and before commit: does every sentence tell the reader something specific about this decision in this repo?
 
 ## Commit message
 
@@ -77,4 +79,4 @@ ADR-0004: one-line decision summary
 - Code and ADR staged together
 - Commit message references ADR id
 
-Report ADR path and id when ready to commit.
+Report ADR path and id when the ADR is created or updated, and again when ready to commit.
