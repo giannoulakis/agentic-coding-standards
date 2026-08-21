@@ -8,9 +8,10 @@ Every change that would make a reviewer ask "why?" ships with an ADR in `docs/de
 
 ### Rules
 
-1. Before commit, run `git diff`. If an ADR is required, create or update one.
-2. Never commit feature or structural code without its ADR in the same commit or PR.
-3. Commit body includes `ADR-0003: summary`.
+1. During feature or structural work, create or update the ADR as decisions land. Do not wait for commit.
+2. Before commit, run `git diff`. Confirm the ADR matches the diff.
+3. Never commit feature or structural code without its ADR in the same commit or PR.
+4. Commit body includes `ADR-0003: summary`.
 
 ### Skip ADR for
 

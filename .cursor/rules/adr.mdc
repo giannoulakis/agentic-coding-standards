@@ -1,10 +1,12 @@
 ---
-description: Auto-apply ADR workflow on feature work and before commits
+description: Auto-apply ADR workflow during feature work and before commits
 alwaysApply: true
 ---
 
 # ADR (always on)
 
-Read `.agents/skills/adr/SKILL.md` before committing feature or structural work.
+Read `.agents/skills/adr/SKILL.md` when starting feature or structural work.
 
-Before commit: if the diff needs an ADR, write it in plain prose, stage it with the code. Commit body: `ADR-NNNN: one-line summary`.
+During work: if the change needs an ADR, create or update it in plain prose as decisions land, not only before commit.
+
+Before commit: confirm the ADR matches the diff, stage it with the code. Commit body: `ADR-NNNN: one-line summary`.
