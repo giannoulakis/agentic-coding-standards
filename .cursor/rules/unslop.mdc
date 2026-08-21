@@ -5,6 +5,6 @@ alwaysApply: true
 
 # Unslop (always on)
 
-Read `.cursor/skills/unslop/SKILL.md` when writing or editing docs, commit bodies, or user-facing text.
+Read `.agents/skills/unslop/SKILL.md` when writing or editing docs, commit bodies, or user-facing text.
 
 Before commit: plain words, active voice, no em dashes, no filler.

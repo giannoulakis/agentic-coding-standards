@@ -2,13 +2,13 @@
 name: adr
 description: >-
   Before commit on feature or structural work, write a short plain-language ADR
-  in docs/decisions/ and commit it with the code. Applies automatically in
-  this repo.
+  in docs/decisions/ and commit it with the code. Use when committing features,
+  architecture changes, library choices, or auth/security work.
 ---
 
 # ADR
 
-Auto-invoked via `.cursor/rules/adr.mdc`. No `/adr` needed. Follow this before every commit that adds or changes behavior.
+Follow this before every commit that adds or changes behavior.
 
 Ship code and ADR in the same commit or PR. Follow AGENTS.md: short, pragmatic, KISS.
 

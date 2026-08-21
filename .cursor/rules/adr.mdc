@@ -5,6 +5,6 @@ alwaysApply: true
 
 # ADR (always on)
 
-Read `.cursor/skills/adr/SKILL.md` before committing feature or structural work.
+Read `.agents/skills/adr/SKILL.md` before committing feature or structural work.
 
 Before commit: if the diff needs an ADR, write it in plain prose, stage it with the code. Commit body: `ADR-NNNN: one-line summary`.

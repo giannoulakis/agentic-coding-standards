@@ -8,8 +8,6 @@ description: >-
 
 # Unslop
 
-Auto-invoked via `.cursor/rules/unslop.mdc` for docs and user-facing text in this repo.
-
 Edit text to remove AI patterns and add human voice.
 
 ## Process
