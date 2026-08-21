@@ -15,7 +15,7 @@ Practical engineering standards for reducing complexity, improving maintainabili
 
 ## Architecture decision records
 
-Feature and structural changes ship with a short ADR in [`docs/decisions/`](./docs/decisions/). Create or update the ADR as decisions land during the work session, not only before commit. Commit the ADR with the code in the same PR.
+Feature and structural changes ship with an ADR in [`docs/decisions/`](./docs/decisions/). Create or update the ADR as decisions land during the work session, not only before commit. Commit the ADR with the code in the same PR.
 
 In Cursor, `.cursor/rules/adr.mdc` and `.cursor/rules/unslop.mdc` apply the ADR and unslop skills on every session.
 

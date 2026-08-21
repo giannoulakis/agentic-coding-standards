@@ -8,11 +8,11 @@ supersedes: null
 
 ## Context
 
-{What problem or feature request led here? Name constraints in this codebase. One short paragraph.}
+{Start with the trigger: what was slow, broken, or requested, and where (screen, endpoint, job). Then the technical cause in this codebase. Use the length the reader needs.}
 
 ## Decision
 
-{What you chose and why. One paragraph. Active voice.}
+{What you chose and why. Active voice.}
 
 ## Alternatives considered
 
@@ -21,7 +21,7 @@ supersedes: null
 
 ## Consequences
 
-{Trade-offs in plain prose or short bullets. Name a specific cost or risk, not "maintainability concerns".}
+{Trade-offs in plain prose or bullets. Name a specific cost or risk, not "maintainability concerns".}
 
 ## Confirmation
 
