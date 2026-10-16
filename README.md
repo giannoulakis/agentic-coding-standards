@@ -41,7 +41,7 @@ This can be used as:
 - A lightweight team coding guide
 - A prompt foundation for AI-assisted development
 - A review checklist for maintainability
-- Agent Skills for common workflows (install by copying `.agents/skills/` into your project or `~/.agents/skills/`)
+- Agent Skills for common workflows (copy or symlink each `.agents/skills/<name>` into your project or `~/.agents/skills/`; symlinks stay current)
 
 ## About
 
