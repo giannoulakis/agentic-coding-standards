@@ -8,7 +8,7 @@ Keep intent in the repo. Meaningful changes ship with an ADR in docs/decisions/.
 - AGENTS.repo.md
 - docs/decisions/0001-adopt-adr-workflow.md
 - Relevant docs/decisions/NNNN-*.md for the area you touch
-- docs/decisions/ADR_TEMPLATE.md
+- .agents/skills/adr/ADR_TEMPLATE.md
 
 ## Skills (always on in this repo)
 - adr — write plain ADR before commit, stage with code

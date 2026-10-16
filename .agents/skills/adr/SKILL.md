@@ -31,7 +31,7 @@ Skip for typos, formatting-only edits, comment-only edits, and refactors that ch
 2. As you implement, update the ADR whenever the decision, scope, or trade-offs change. Do not wait for commit.
 3. Before commit, run `git diff` and `git diff --stat`. Confirm the ADR matches the diff. Create or update if anything drifted.
 4. Next number: `scripts/next-adr-number.sh`, or highest `docs/decisions/NNNN-*.md` + 1, zero-padded.
-5. Draft using [ADR_TEMPLATE.md](../../../docs/decisions/ADR_TEMPLATE.md). Write each section to the length the decision needs. Delete empty sections.
+5. Draft using [ADR_TEMPLATE.md](ADR_TEMPLATE.md). Write each section to the length the decision needs. Delete empty sections.
 6. Edit the draft for plain prose (see Writing below).
 7. Set status to `accepted` when done; `proposed` only if recording intent before code lands.
 8. Fill Confirmation with test commands and commit SHAs (or `pending` until commit).
