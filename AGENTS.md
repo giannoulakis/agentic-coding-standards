@@ -19,3 +19,11 @@
 - Check directly related upstream and downstream impacts.
 - Keep unrelated work out of scope unless evidence requires it.
 - Do not quietly change security-sensitive behavior. Call it out.
+### Improving prompts:
+When the user asks to improve a prompt, make sure it clearly answers:
+- What the user wants / what to do
+- What the user doesn't want / what not to do
+- Where we're at / what to check before executing
+- Definition of done / how to check the results
+
+If the prompt is missing one of these, ask the user instead of guessing.
