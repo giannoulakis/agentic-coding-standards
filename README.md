@@ -9,7 +9,6 @@ Practical engineering standards for reducing complexity, improving maintainabili
 | Skill | Use for |
 |-------|---------|
 | [`adr`](./.agents/skills/adr/SKILL.md) | Write or update architecture decision records during feature work |
-| [`ai-pr`](./.agents/skills/ai-pr/SKILL.md) | Copy-pasteable branch → commit → push → PR commands from staged changes |
 | [`ponytail`](./.agents/skills/ponytail/SKILL.md) | Simplest solution that works; YAGNI and minimal diffs |
 | [`retro`](./.agents/skills/retro/SKILL.md) | Retrospective on a coding session; suggests environment improvements |
 | [`unslop`](./.agents/skills/unslop/SKILL.md) | Plain prose in docs, commits, and user-facing text |
