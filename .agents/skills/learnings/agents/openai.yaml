@@ -1,0 +1,5 @@
+interface:
+  display_name: "Learnings"
+  short_description: "Record the session's lessons in the knowledge base (only if worth it)."
+policy:
+  allow_implicit_invocation: false
