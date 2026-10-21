@@ -1,5 +1,5 @@
 ### Core principles:
-- Build the minimum that works. The `ponytail` skill holds the rules: YAGNI, the reuse/stdlib/native ladder, root-cause fixes.
+- Build the minimum that works: load the `ponytail` skill for every coding task (writing, fixing, refactoring, reviewing, choosing dependencies).
 - Resolve ambiguity with a sensible default and state it in one line. Ask only when no safe default exists.
 - Keep repo-specific instructions in `AGENTS.repo.md`. Edit this shared file only on request or for a new cross-project pattern.
 ### Code standards (low cognitive load):
