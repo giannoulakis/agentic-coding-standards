@@ -18,7 +18,7 @@ Record **lessons** from this session so a future agent works better. A lesson is
    - It changes what a future agent does.
    - The environment can't answer it cheaply (code, git history, a doc one search away). If it can, record a pointer to it instead of copying it.
 3. Route each kept lesson to its single home: the places the project's `AGENTS.md` names for knowledge (memory file, links, task list). A tool or site recipe goes in the skill that covers that tool, marked tested or untested. If the project names no home, propose one and ask. Search first: update or replace the existing note, never stack a second version.
-4. Write each lesson as one tight bullet with its source link.
+4. Write each lesson as one tight bullet with its source link. State the general rule, not the case it came from: no customer names, BIDs or amounts. The source link is enough to trace the example.
 
 Done when every kept lesson sits in exactly one place. Zero lessons is a valid outcome: then write nothing.
 
